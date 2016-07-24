@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51A371161D457A5E00C5993D /* iosteam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A371151D457A5E00C5993D /* iosteam@3x.png */; };
+		51A371181D457B5000C5993D /* create-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A371171D457B5000C5993D /* create-group.png */; };
+		51BE9F441D455454009C15DB /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE9F431D455454009C15DB /* RestApiManager.swift */; };
+		51BE9F461D45553A009C15DB /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE9F451D45553A009C15DB /* UserObject.swift */; };
+		51BE9F6B1D456772009C15DB /* logo-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F6A1D456772009C15DB /* logo-120.png */; };
+		51BE9F6D1D4568D3009C15DB /* splash-iphone6plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F6C1D4568D3009C15DB /* splash-iphone6plus.png */; };
+		51BE9F6F1D456E23009C15DB /* nav818.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F6E1D456E23009C15DB /* nav818.png */; };
+		51BE9F711D456E81009C15DB /* group@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F701D456E81009C15DB /* group@3x.png */; };
+		51BE9F731D456F51009C15DB /* plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F721D456F51009C15DB /* plus@3x.png */; };
+		51BE9F751D4576CF009C15DB /* groups.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F741D4576CF009C15DB /* groups.png */; };
+		51BE9F791D4578FE009C15DB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F781D4578FE009C15DB /* background.png */; };
+		51CAD09A1D44341D008EDB31 /* GroupTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAD0991D44341D008EDB31 /* GroupTableView.swift */; };
+		51CAD09C1D443630008EDB31 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAD09B1D443630008EDB31 /* GroupTableViewCell.swift */; };
 		51F93F911D43E93200DEB526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F93F901D43E93200DEB526 /* AppDelegate.swift */; };
 		51F93F931D43E93200DEB526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F93F921D43E93200DEB526 /* ViewController.swift */; };
 		51F93F961D43E93200DEB526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F93F941D43E93200DEB526 /* Main.storyboard */; };
 		51F93F981D43E93200DEB526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F93F971D43E93200DEB526 /* Assets.xcassets */; };
 		51F93F9B1D43E93200DEB526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F93F991D43E93200DEB526 /* LaunchScreen.storyboard */; };
+		51F93FA31D43F0EB00DEB526 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51F93FA21D43F0EB00DEB526 /* GoogleService-Info.plist */; };
+		753D78A045ADF343928637ED /* Pods_SingleTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34622E5005E78463EFCC7091 /* Pods_SingleTouch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34622E5005E78463EFCC7091 /* Pods_SingleTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingleTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A371151D457A5E00C5993D /* iosteam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iosteam@3x.png"; sourceTree = "<group>"; };
+		51A371171D457B5000C5993D /* create-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-group.png"; sourceTree = "<group>"; };
+		51BE9F431D455454009C15DB /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		51BE9F451D45553A009C15DB /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		51BE9F6A1D456772009C15DB /* logo-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-120.png"; sourceTree = "<group>"; };
+		51BE9F6C1D4568D3009C15DB /* splash-iphone6plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-iphone6plus.png"; sourceTree = "<group>"; };
+		51BE9F6E1D456E23009C15DB /* nav818.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav818.png; sourceTree = "<group>"; };
+		51BE9F701D456E81009C15DB /* group@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group@3x.png"; sourceTree = "<group>"; };
+		51BE9F721D456F51009C15DB /* plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@3x.png"; sourceTree = "<group>"; };
+		51BE9F741D4576CF009C15DB /* groups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groups.png; sourceTree = "<group>"; };
+		51BE9F781D4578FE009C15DB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		51CAD0991D44341D008EDB31 /* GroupTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableView.swift; sourceTree = "<group>"; };
+		51CAD09B1D443630008EDB31 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		51F93F8D1D43E93100DEB526 /* SingleTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F93F901D43E93200DEB526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F93F921D43E93200DEB526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +51,9 @@
 		51F93F971D43E93200DEB526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F93F9A1D43E93200DEB526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F93F9C1D43E93200DEB526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F93FA21D43F0EB00DEB526 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BE4C14DEA15CABDDC06312D /* Pods-SingleTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleTouch/Pods-SingleTouch.release.xcconfig"; sourceTree = "<group>"; };
+		DAA6CAB39085E56698B462A3 /* Pods-SingleTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingleTouch/Pods-SingleTouch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753D78A045ADF343928637ED /* Pods_SingleTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51BE9F691D45675A009C15DB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				51A371171D457B5000C5993D /* create-group.png */,
+				51A371151D457A5E00C5993D /* iosteam@3x.png */,
+				51BE9F781D4578FE009C15DB /* background.png */,
+				51BE9F741D4576CF009C15DB /* groups.png */,
+				51BE9F721D456F51009C15DB /* plus@3x.png */,
+				51BE9F701D456E81009C15DB /* group@3x.png */,
+				51BE9F6E1D456E23009C15DB /* nav818.png */,
+				51BE9F6C1D4568D3009C15DB /* splash-iphone6plus.png */,
+				51BE9F6A1D456772009C15DB /* logo-120.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		51F93F841D43E93100DEB526 = {
 			isa = PBXGroup;
 			children = (
 				51F93F8F1D43E93200DEB526 /* SingleTouch */,
 				51F93F8E1D43E93100DEB526 /* Products */,
+				F13C5E899A35FD893C107D78 /* Pods */,
+				E43C880C3568C9C0A480A441 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,37 @@
 		51F93F8F1D43E93200DEB526 /* SingleTouch */ = {
 			isa = PBXGroup;
 			children = (
+				51BE9F691D45675A009C15DB /* img */,
 				51F93F901D43E93200DEB526 /* AppDelegate.swift */,
 				51F93F921D43E93200DEB526 /* ViewController.swift */,
 				51F93F941D43E93200DEB526 /* Main.storyboard */,
 				51F93F971D43E93200DEB526 /* Assets.xcassets */,
 				51F93F991D43E93200DEB526 /* LaunchScreen.storyboard */,
 				51F93F9C1D43E93200DEB526 /* Info.plist */,
+				51F93FA21D43F0EB00DEB526 /* GoogleService-Info.plist */,
+				51CAD0991D44341D008EDB31 /* GroupTableView.swift */,
+				51CAD09B1D443630008EDB31 /* GroupTableViewCell.swift */,
+				51BE9F431D455454009C15DB /* RestApiManager.swift */,
+				51BE9F451D45553A009C15DB /* UserObject.swift */,
 			);
 			path = SingleTouch;
+			sourceTree = "<group>";
+		};
+		E43C880C3568C9C0A480A441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34622E5005E78463EFCC7091 /* Pods_SingleTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13C5E899A35FD893C107D78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAA6CAB39085E56698B462A3 /* Pods-SingleTouch.debug.xcconfig */,
+				8BE4C14DEA15CABDDC06312D /* Pods-SingleTouch.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F93F9F1D43E93200DEB526 /* Build configuration list for PBXNativeTarget "SingleTouch" */;
 			buildPhases = (
+				C9CB8D3BC9F467974CCDA2F5 /* Check Pods Manifest.lock */,
 				51F93F891D43E93100DEB526 /* Sources */,
 				51F93F8A1D43E93100DEB526 /* Frameworks */,
 				51F93F8B1D43E93100DEB526 /* Resources */,
+				879E57AA3BA305A57D9D872D /* Embed Pods Frameworks */,
+				0C40F8A06A2B38ECD9B17125 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +200,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				51F93F9B1D43E93200DEB526 /* LaunchScreen.storyboard in Resources */,
+				51A371161D457A5E00C5993D /* iosteam@3x.png in Resources */,
+				51BE9F791D4578FE009C15DB /* background.png in Resources */,
+				51A371181D457B5000C5993D /* create-group.png in Resources */,
+				51BE9F6B1D456772009C15DB /* logo-120.png in Resources */,
+				51BE9F6F1D456E23009C15DB /* nav818.png in Resources */,
+				51F93FA31D43F0EB00DEB526 /* GoogleService-Info.plist in Resources */,
 				51F93F981D43E93200DEB526 /* Assets.xcassets in Resources */,
+				51BE9F6D1D4568D3009C15DB /* splash-iphone6plus.png in Resources */,
 				51F93F961D43E93200DEB526 /* Main.storyboard in Resources */,
+				51BE9F711D456E81009C15DB /* group@3x.png in Resources */,
+				51BE9F731D456F51009C15DB /* plus@3x.png in Resources */,
+				51BE9F751D4576CF009C15DB /* groups.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C40F8A06A2B38ECD9B17125 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleTouch/Pods-SingleTouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879E57AA3BA305A57D9D872D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleTouch/Pods-SingleTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CB8D3BC9F467974CCDA2F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51F93F891D43E93100DEB526 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CAD09A1D44341D008EDB31 /* GroupTableView.swift in Sources */,
 				51F93F931D43E93200DEB526 /* ViewController.swift in Sources */,
 				51F93F911D43E93200DEB526 /* AppDelegate.swift in Sources */,
+				51BE9F441D455454009C15DB /* RestApiManager.swift in Sources */,
+				51CAD09C1D443630008EDB31 /* GroupTableViewCell.swift in Sources */,
+				51BE9F461D45553A009C15DB /* UserObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +386,27 @@
 		};
 		51F93FA01D43E93200DEB526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA6CAB39085E56698B462A3 /* Pods-SingleTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SingleTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manor.SingleTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		51F93FA11D43E93200DEB526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE4C14DEA15CABDDC06312D /* Pods-SingleTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SingleTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manor.SingleTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
@@ -286,6 +429,7 @@
 				51F93FA11D43E93200DEB526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
