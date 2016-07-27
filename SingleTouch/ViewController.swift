@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         let groupRef = ref.childByAppendingPath("groups")
         let family = ["user_ids":["alan","ppp"]]
-        let friends = ["user_ids":["grace","alan","shirly"]]
+        let friends = ["user_ids":["grace","alan","Shirly"]]
         let ios = ["user_ids":["Shirly","Suchitra","Asha","Ozlem","Meenakshi"]]
         
         let groups = ["family": family, "friends": friends, "ios": ios]

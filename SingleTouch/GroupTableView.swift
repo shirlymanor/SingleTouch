@@ -13,17 +13,17 @@ import SwiftyJSON
 
 class GroupTableView: UITableViewController {
     
-        override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         getGroups()
-       // getUsersByGroupID("ios")
+        // getUsersByGroupID("ios")
         
     }
-//    enum groupId{
-//         ios,
-//        family,
-//        friends
-//    }
+    //    enum groupId{
+    //         ios,
+    //        family,
+    //        friends
+    //    }
     var usernames: [String] = [] {
         didSet {
             print(" user names set to \(usernames)")
@@ -37,7 +37,7 @@ class GroupTableView: UITableViewController {
             self.tableView.reloadData()
         }
     }
-
+    
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print("users count set to \(usernames.count)")
@@ -70,12 +70,23 @@ class GroupTableView: UITableViewController {
                     guard let phoneNumber: String? = snapshot.value as! String else { return }
                     self.phoneNumbers.append(phoneNumber!)
                 })
-
+                
             }
-        
+            
         })
     }
-    
+    func setGroups()
+    {
+        let ref = FIRDatabase.database().reference()
+
+        let groupRef = ref.childByAppendingPath("groups")
+        let family = ["user_ids":["alan","ppp"]]
+        let friends = ["user_ids":["grace","alan","Shirly"]]
+        let ios = ["user_ids":["Shirly","Suchitra","Asha","Ozlem","Meenakshi"]]
+        
+        let groups = ["family": family, "friends": friends, "ios": ios]
+        groupRef.setValue(groups)
+    }
     func getGroups()
     {
         let ref = FIRDatabase.database().reference()

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		51A371161D457A5E00C5993D /* iosteam@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A371151D457A5E00C5993D /* iosteam@3x.png */; };
 		51A371181D457B5000C5993D /* create-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A371171D457B5000C5993D /* create-group.png */; };
+		51A3711A1D46B92A00C5993D /* AddGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A371191D46B92A00C5993D /* AddGroup.swift */; };
 		51BE9F441D455454009C15DB /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE9F431D455454009C15DB /* RestApiManager.swift */; };
 		51BE9F461D45553A009C15DB /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BE9F451D45553A009C15DB /* UserObject.swift */; };
 		51BE9F6B1D456772009C15DB /* logo-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE9F6A1D456772009C15DB /* logo-120.png */; };
@@ -33,6 +34,7 @@
 		34622E5005E78463EFCC7091 /* Pods_SingleTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingleTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A371151D457A5E00C5993D /* iosteam@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iosteam@3x.png"; sourceTree = "<group>"; };
 		51A371171D457B5000C5993D /* create-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-group.png"; sourceTree = "<group>"; };
+		51A371191D46B92A00C5993D /* AddGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGroup.swift; sourceTree = "<group>"; };
 		51BE9F431D455454009C15DB /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 		51BE9F451D45553A009C15DB /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		51BE9F6A1D456772009C15DB /* logo-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-120.png"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				51CAD09B1D443630008EDB31 /* GroupTableViewCell.swift */,
 				51BE9F431D455454009C15DB /* RestApiManager.swift */,
 				51BE9F451D45553A009C15DB /* UserObject.swift */,
+				51A371191D46B92A00C5993D /* AddGroup.swift */,
 			);
 			path = SingleTouch;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CAD09A1D44341D008EDB31 /* GroupTableView.swift in Sources */,
+				51A3711A1D46B92A00C5993D /* AddGroup.swift in Sources */,
 				51F93F931D43E93200DEB526 /* ViewController.swift in Sources */,
 				51F93F911D43E93200DEB526 /* AppDelegate.swift in Sources */,
 				51BE9F441D455454009C15DB /* RestApiManager.swift in Sources */,
