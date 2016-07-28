@@ -7,11 +7,12 @@ SWIFT/XCODE
 Firebase as a database
 Tropo API for the calls
 
-Participates (All women):
-Ozlem Bilis
-Suchitra Gopal 
-Asha Rani
-Meenakshi Ramamoorthi
-Dana Manor
-Shirly Manor
+Participates (All women):<br>
+Ozlem Bilis<br>
+Suchitra Gopal <br>
+Asha Rani<br>
+Meenakshi Ramamoorthi<br>
+Dana Manor<br>
+Shirly Manor<br>
+![Alt text](https://github.com/shirlymanor/SingleTouch/blob/master/Huddle.gif)
 
